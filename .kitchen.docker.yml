@@ -1,0 +1,49 @@
+---
+driver:
+  name: docker
+  hostname: oslo-templates.ci.local
+  #socket: tcp://127.0.0.1:2376
+  use_sudo: false
+
+
+
+provisioner:
+  name: salt_solo
+  salt_install: bootstrap
+  salt_bootstrap_url: https://bootstrap.saltstack.com
+  salt_version: latest
+  require_chef: false
+  formula: oslo-templates
+  log_level: info
+  state_top:
+    base:
+      "*":
+        - oslo-templates
+  pillars:
+    top.sls:
+      base:
+        "*":
+          - oslo-templates
+  grains:
+    noservices: True
+
+
+platforms:
+  - name: <%=ENV['PLATFORM'] ||  'saltstack-ubuntu-xenial-salt-stable' %>
+    driver_config:
+      image: <%=ENV['PLATFORM'] || 'epcim/salt-formulas:saltstack-ubuntu-xenial-salt-stable'%>
+      platform: ubuntu
+
+
+verifier:
+  name: inspec
+  sudo: true
+
+
+suites:
+  - name: default
+  #  provisioner:
+  #    pillars-from-files:
+  #      oslo-templates.sls: tests/pillar/default.sls
+
+# vim: ft=yaml sw=2 ts=2 sts=2 tw=125

@@ -1,0 +1,3 @@
+name: "oslo-templates"
+version: "2018.1"
+source: "https://github.com/salt-formulas/salt-formula-oslo-templates"

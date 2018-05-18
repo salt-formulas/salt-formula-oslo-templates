@@ -1,0 +1,15 @@
+Source: salt-formula-oslo-templates
+Maintainer: OSCORE <devops@mirantis.com>
+Section: admin
+Priority: optional
+Build-Depends: debhelper (>= 9), salt-master, python, python-yaml
+Standards-Version: 3.9.6
+Homepage: https://github.com/salt-formulas
+Vcs-Browser: https://github.com/salt-formulas/salt-formula-oslo-templates
+Vcs-Git: https://github.com/salt-formulas/salt-formula-oslo-templates.git
+
+Package: salt-formula-oslo-templates
+Architecture: all
+Depends: ${misc:Depends}
+Description: oslo-templates salt formula
+ Install and configure oslo-templates.

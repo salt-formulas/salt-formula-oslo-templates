@@ -1,0 +1,5 @@
+salt-formula-oslo-templates (2018.1) xenial; urgency=medium
+
+  * Initial release
+
+ -- OSCORE devops@mirantis.com  Fri, 18 May 2018 01:58:41 BST
