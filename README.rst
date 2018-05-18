@@ -3,7 +3,7 @@
 Oslo_templates Formula
 ==================================
 
-Service oslo_templates description
+Service oslo-templates description
 
 
 Sample Metadata
@@ -38,7 +38,7 @@ In the unfortunate event that bugs are discovered, they should be reported to
 the appropriate issue tracker. Use GitHub issue tracker for specific salt
 formula:
 
-    https://github.com/salt-formulas/salt-formula-oslo_templates/issues
+    https://github.com/salt-formulas/salt-formula-oslo-templates/issues
 
 For feature requests, bug reports or blueprints affecting entire ecosystem,
 use Launchpad salt-formulas project:

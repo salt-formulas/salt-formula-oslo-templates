@@ -1,4 +1,4 @@
-salt-formula-oslo_templates (2018.1) xenial; urgency=medium
+salt-formula-oslo-templates (2018.1) xenial; urgency=medium
 
   * Initial release
 

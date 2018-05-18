@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: salt-formula-oslo_templates
+Upstream-Name: salt-formula-oslo-templates
 Upstream-Contact: salt-formulas@freelists.org
-Source: https://github.com/salt-formulas/salt-formula-oslo_templates
+Source: https://github.com/salt-formulas/salt-formula-oslo-templates
 
 Files: *
 Copyright: 2018 OSCore Team
