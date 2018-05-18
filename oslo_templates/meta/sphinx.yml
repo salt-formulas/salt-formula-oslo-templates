@@ -1,7 +1,7 @@
-{%- from "oslo-templates/map.jinja" import template with context %}
+{%- from "oslo_templates/map.jinja" import template with context %}
 # Fill in documentation details
 doc:
-  name: oslo-templates
+  name: oslo_templates
   description: Some service info
   role:
     template:

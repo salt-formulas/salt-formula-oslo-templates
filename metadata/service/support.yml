@@ -1,5 +1,5 @@
 parameters:
-  oslo-templates:
+  oslo_templates:
     _support:
       collectd:
         enabled: false

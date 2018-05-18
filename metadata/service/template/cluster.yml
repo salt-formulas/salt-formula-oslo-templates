@@ -1,9 +1,9 @@
 applications:
-- oslo-templates
+- oslo_templates
 classes:
-- service.oslo-templates.support
+- service.oslo_templates.support
 parameters:
-  oslo-templates:
+  oslo_templates:
     template:
       enabled: true
       bind:

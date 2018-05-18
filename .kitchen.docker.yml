@@ -1,7 +1,7 @@
 ---
 driver:
   name: docker
-  hostname: oslo-templates.ci.local
+  hostname: oslo_templates.ci.local
   #socket: tcp://127.0.0.1:2376
   use_sudo: false
 
@@ -13,17 +13,17 @@ provisioner:
   salt_bootstrap_url: https://bootstrap.saltstack.com
   salt_version: latest
   require_chef: false
-  formula: oslo-templates
+  formula: oslo_templates
   log_level: info
   state_top:
     base:
       "*":
-        - oslo-templates
+        - oslo_templates
   pillars:
     top.sls:
       base:
         "*":
-          - oslo-templates
+          - oslo_templates
   grains:
     noservices: True
 
@@ -44,6 +44,6 @@ suites:
   - name: default
   #  provisioner:
   #    pillars-from-files:
-  #      oslo-templates.sls: tests/pillar/default.sls
+  #      oslo_templates.sls: tests/pillar/default.sls
 
 # vim: ft=yaml sw=2 ts=2 sts=2 tw=125

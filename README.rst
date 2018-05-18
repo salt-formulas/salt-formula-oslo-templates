@@ -1,19 +1,19 @@
 
 ==================================
-Oslo-templates Formula
+Oslo_templates Formula
 ==================================
 
-Service oslo-templates description
+Service oslo_templates description
 
 
 Sample Metadata
 ===============
 
-Single oslo-templates service
+Single oslo_templates service
 
 .. code-block:: yaml
 
-    oslo-templates:
+    oslo_templates:
       template:
         enabled: true
 
@@ -38,7 +38,7 @@ In the unfortunate event that bugs are discovered, they should be reported to
 the appropriate issue tracker. Use GitHub issue tracker for specific salt
 formula:
 
-    https://github.com/salt-formulas/salt-formula-oslo-templates/issues
+    https://github.com/salt-formulas/salt-formula-oslo_templates/issues
 
 For feature requests, bug reports or blueprints affecting entire ecosystem,
 use Launchpad salt-formulas project:

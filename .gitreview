@@ -1,4 +1,0 @@
-[gerrit]
-host=172.16.48.254
-port=29418
-project=salt-formulas/oslo-templates.git

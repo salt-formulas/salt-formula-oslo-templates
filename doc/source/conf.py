@@ -35,7 +35,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'salt-formula-oslo-templates'
+project = u'salt-formula-oslo_templates'
 copyright = u'2016, OSCore Team'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.

@@ -1,5 +1,3 @@
-oslo-templates:
+oslo_templates:
   template:
     enabled: true
-oslo:
-  enabled: true
