@@ -4,9 +4,9 @@ Upstream-Contact: salt-formulas@freelists.org
 Source: https://github.com/salt-formulas/salt-formula-oslo-templates
 
 Files: *
-Copyright: 2018 OSCore Team
+Copyright: 2018 Mirantis Inc
 License: Apache-2.0
-  Copyright (C) 2018 OSCore Team
+  Copyright (C) 2018 Mirantis Inc
   .
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
