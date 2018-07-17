@@ -56,6 +56,9 @@ test_${state_name}_rendering:
     - source: ${template_path}
     - context:
       _data: {{ pillar.get("_data", {}) }}
+    {%- if pillar.get('service_name') %}
+      service_name: {{ pillar.service_name }}
+    {%- endif %}
 EOF
 }
 
