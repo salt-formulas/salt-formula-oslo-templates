@@ -15,3 +15,5 @@ _data:
   user_id: id
   user: user
   version: v1
+  barbican_endpoint: 'http://localhost:9311/'
+  barbican_endpoint_type: public
